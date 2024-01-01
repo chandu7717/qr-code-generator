@@ -1,0 +1,125 @@
+/* 
+div {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(128, 128, 0);
+  border-radius: 4px;
+  font-size: 16px;
+  color: lightcoral;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline: none;
+}
+
+div > div {
+  margin-top: 20px;
+}
+
+
+div > div svg {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+body
+{
+  background-image: linear-gradient(to right, rgb(96, 92, 92) , rgb(175, 107, 50));
+
+}
+#qrcode
+{
+  border: 2px solid red;
+  height: 200px;
+}
+.content-box
+{
+   border: 2px solid red;
+  height: 200px;
+}
+
+ */
+ .main
+ {
+  border: 2px solid transparent;
+  height: 25rem;
+  width: 40rem;
+  margin-left: 28%;
+  margin-top: 10%;
+  background-image: linear-gradient(to right, rgba(161, 111, 111, 0.396) , rgba(94, 72, 38, 0.495));
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(253, 253, 253);
+ }
+ body
+ {
+  background-image: linear-gradient(to right, rgb(96, 92, 92) , rgb(189, 181, 175));
+ }
+ label
+ {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 35%;
+  color: rgba(250, 238, 238, 0.897);
+ }
+ input
+ {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(128, 128, 0);
+  border-radius: 4px;
+  font-size: 16px;
+  color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline: none;
+  background-color: rgba(240, 248, 255, 0.104);
+ }
+ #content
+ {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  height: 100px;
+  margin-top: 30px;
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(82, 80, 80);
+  background-image: linear-gradient(to right, rgba(161, 111, 111, 0.396) , rgba(94, 72, 38, 0.495));
+ }
+ div>#qrcode
+ {
+  margin-top: 50px;
+  margin-left: 250px;
+  background-color: transparent;
+  /* border: 2px solid red; */
+  width: 130px;
+ }
+ ::placeholder
+ {
+  color: rgb(255, 200, 0);
+  font-size: medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ 
